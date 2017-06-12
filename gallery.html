@@ -46,6 +46,62 @@ div.gallery img {
     display: table;
     clear: both;
 }
+
+	.popupbox {
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 200ms ease-in;
+		-moz-transition: opacity 200ms ease-in;
+		transition: opacity 200ms ease-in;
+		pointer-events: none;
+	}
+	
+	.popupbox:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+
+	.popupbox > div {
+		width: 840px;
+		position: relative;
+		margin: 10% auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #fff;
+		background: -moz-linear-gradient(#fff, #999);
+		background: -webkit-linear-gradient(#fff, #999);
+		background: -o-linear-gradient(#fff, #999);
+		image: ./Photos/MVC-004F.JPG
+		
+	}
+	.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+	.close:hover { background: #00d9ff; }
+
 </style>
 </head>
 
@@ -76,11 +132,36 @@ div.gallery img {
 <!-- Page content -->
 <body>
 
+<!-- Popup Window -->
+
+<script type="text/javascript">
+var image = {
+	imageScr: "Test",
+	getImage: function(){
+		return "./Photos/" + this.imageScr + ".JPG";
+	},
+	setImage: function(val){
+		this.imageScr = val;
+		document.getElementById('GoToHref').click();
+	}
+}
+</script>
+
+<div id="openPopup" class="popupbox">
+	<div>
+		<a href="#close" title="Close" class="close">x</a>
+		<img src=javascript:image.getImage(); alt="error" width="800" height="533">
+	</div>
+</div>
+		
+<form action="#openPopup"><button id="GoToHref" style="display:none"></button></form>		
+		
+<!-- End Popup Window -->
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-003F.JPG">
-      <img src="./Photos/MVC-003F.JPG" alt="error" width="300" height="200">
+    <a target="_blank" href="./Photos/MVC003F.JPG">
+      <img src="./Photos/MVC003F.JPG" alt="error" width="300" height="200">
     </a>
   </div>
 </div>
@@ -88,11 +169,10 @@ div.gallery img {
 
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-004F.JPG">
-    <img src="./Photos/MVC-004F.JPG" alt="Error" width="600" height="400">
+  <div class="gallery" onclick=image.setImage("MVC004F");>
+    <a target="_blank">
+    <img src="./Photos/MVC004F.JPG" alt="Error" width="600" height="400" >
     </a>
-    
   </div>
 </div>
 
