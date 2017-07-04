@@ -185,7 +185,11 @@ html,
 body {
     font-family: Verdana, sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 15px;
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
     font-size: 15px;
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
@@ -496,7 +500,11 @@ ul.w3-ul li:last-child {
 }
 .w3-topnav {
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 8px 8px;
+=======
+    padding: 8px 8px
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
     padding: 8px 8px
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
@@ -2139,7 +2147,10 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 }
 /* Jon's Stuff */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 #background {
@@ -2153,7 +2164,11 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 }
 #wrapper {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	padding: 15vw 0 0 0;
+=======
+	padding: 300px 0;
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 	padding: 300px 0;
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
@@ -2168,7 +2183,10 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	background-color: white;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 #texta {
@@ -2177,7 +2195,11 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	text-align: center;
 	color:#cc0000;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:1vw;
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 	font-size:1vw;
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
@@ -2186,6 +2208,7 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	width: 95%;
 	margin-top: -30px;
@@ -2211,12 +2234,17 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 #textb {
 	margin: 0 auto;
 =======
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 	width: 75%;
 	margin-top: -30px;
 	height: 18vw;
 	border-radius: 15px;
 }
 #textb {
+<<<<<<< HEAD
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
+=======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 	display: block;
 	text-align: center;
@@ -2224,10 +2252,16 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	padding-right: 7%;
 	font-family: Courier New;	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size:16px;
 	font-weight: bold;
 	color: #434c55;
 	width: 100%;
+=======
+	font-size:1vw;
+	font-weight: bold;
+	color: #434c55;
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 	font-size:1vw;
 	font-weight: bold;
@@ -2241,7 +2275,11 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	padding-right: 7%;
 	font-family: Courier New;	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size:22px;
+=======
+	font-size:1.3vw;
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 	font-size:1.3vw;
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
@@ -2249,6 +2287,7 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 	color: #434c55;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #header-image {
 	width: 80%; 
@@ -2326,6 +2365,8 @@ input[type=radio].w3-radio:disabled+.w3-validate {
 }
 =======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 div.gallery {
     border: 5px solid #ccc;
 }
@@ -2386,15 +2427,21 @@ div.gallery img {
 
 .popupbox > div {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 91vw;
 	position: relative;
 	margin: 10% auto;
 	padding: 0.6vw 0.6vw 0.6vw 0.6vw;
 =======
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 	width: 840px;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
+<<<<<<< HEAD
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
+=======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 	border-radius: 10px;
 	background: #fff;
@@ -2403,7 +2450,10 @@ div.gallery img {
 	background: -o-linear-gradient(#fff, #999);	
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 .close {
@@ -2429,6 +2479,7 @@ div.gallery img {
 	background: #00d9ff; 
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #popupBoxId {
 	width:90vw;
@@ -2563,5 +2614,7 @@ div.gallery img {
 		font-family: Palatino;
 	}
 }
+=======
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 =======
 >>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
