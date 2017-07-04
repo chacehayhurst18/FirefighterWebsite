@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Warren Fire Department</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="shortcut icon" href="Photos\Misc\Logo.png">
+<link rel="stylesheet" href="css/footer-distributed.css">
+</head>
+
+<body>
+<script>
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000);
+}
+</script>
+
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
+        <a href="http://warrenrifiredepartment.com" class="w3-margin-left w3-bar-item w3-button">
+        <img src="Photos/Misc/Logo.png" width="30px" height="30px" /> 
+        <strong>Warren</strong> Fire Department</a>
+        <div class="w3-right w3-hide-small">
+        <a href="http://warrenrifiredepartment.com" class="w3-bar-item w3-button">Home</a> 
+        <a href="http://warrenrifiredepartment.com/aboutUs.html" class="w3-bar-item w3-button">About Us</a> 
+        <a href="http://warrenrifiredepartment.com/gallery.html" class="w3-bar-item w3-button">Gallery</a> 
+        <a href="http://warrenrifiredepartment.com/contact.html" class="w3-bar-item w3-button w3-margin-right">Contact</a></div>
+      </div>
+    </div>
+    <!--End NavBar-->
+	
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header-test">
+          <br />
+          <img src="Photos/Misc/WarrenFireDepartmentBox.png" id="header-image" />
+          <br />
+          <br />
+          <div id="background"></div>
+        </header>
+        <!--End Header-->
+
+
+<!-- Page content -->
+<div id="content">
+
+<table style="width:100%; border-spacing:0px">
+	<tr>
+		<td id="homepage-body" class="fold">
+			<p id="homepage-head-text">Welcome to the Homepage of the Warren Fire Department!</p>
+			<p id="homepage-text">Important Links:<br/></p>
+			<p id="homepage-links">
+			<a href="http://www.heart.org/HEARTORG/">American Heart Assosiation</a><br/>
+			<a href="http://www.redcross.org/">American Red Cross</a><br/>
+			<a href="https://www.hhs.gov/">Department of Health and Human Services (HHS)</a><br/>
+			<a href="https://www.cdc.gov/">Center for Disease Control (CDC)</a><br/>
+			<a href="https://www.fema.gov/">FEMA</a><br/>
+			<a href="https://www.nremt.org/rwd/public">National Registry of Emergency Medical Technicians (NREMT)</a><br/>
+			<a href="http://www.health.ri.gov/">Rhode Island Department of Health</a><br/>
+			<a href="http://www.ri.gov/">State of Rhode Island</a><br/>
+			<a href="http://www.townofwarren-ri.gov/">Town of Warren</a><br/>
+			</p>
+			</td>
+		<td id="homepage-image" class="fold">
+			<div class="w3-display-container w3-content w3-wide" style="max-width:1505px;max-height:1000px;width:100%" id="home">
+				<img class="mySlides" src="Photos\MVC-024F.JPG" style="width:100%;border:6px solid #ff0011;background-color:#ff0011;">
+				<img class="mySlides" src="Photos\MVC-033F.JPG" style="width:100%;border:6px solid #ff0011;background-color:#ff0011;">
+				<img class="mySlides" src="Photos\MVC-850F.JPG" style="width:100%;border:6px solid #ff0011;background-color:#ff0011;">
+				<img class="mySlides" src="Photos\SlideLogo.JPG" style="width:100%;border:6px solid #ff0011;background-color:#ff0011;">
+				<script>
+					var slideIndex = 0;
+					carousel();
+				</script>
+			</div>
+		</td>
+			
+		</tr>
+	<tr>	
+</tr>
+</table>
+
+
+
+<!-- Page content -->
+
+<!--Insert Page Content Here -->
+
+  
+<!-- End page content -->
+
+
+<!-- Footer -->
+		<footer class="footer-distributed" style="margin-top: 0px;height:360px">
+			<div class="footer-left">
+				<p class="footer-links"><br></br>
+					<a href="http://warrenrifiredepartment.com">Home</a> ·
+					<a href="http://warrenrifiredepartment.com/aboutUs.html">About Us</a> ·
+					<a href="http://warrenrifiredepartment.com/gallery.html">Gallery</a> ·
+					<a href="http://warrenrifiredepartment.com/contact.html">Contact</a>
+				</p>
+				<p>Warren Fire Department</p><br /><p>Alexander R. Galinelli, Fire Chief: 401-245-7600 • 401-247-7735 (fax)</p>
+				<br/>
+				<a style="color:#25604a;font-weight:bold" href="http://fg.k12.ri.us/">Created By Ponaganset High School Students</a>
+			</div>
+		</footer>
+<!-- End Footer -->
+
+      </div>
+    </div>
+</body>
+</html>
