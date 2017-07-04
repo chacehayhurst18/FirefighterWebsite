@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,1157 +6,1071 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheet.css">
-<link rel="shortcut icon" href="Photos\logo.png">
+<link rel="shortcut icon" href="Photos\Misc\Logo.PNG">
 <link rel="stylesheet" href="css/footer-distributed.css">
-<style>
-div.gallery {
-    border: 5px solid #ccc;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-</style>
 </head>
 
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2"><a href="http://warrenrifiredepartment.com" class="w3-margin-left w3-bar-item w3-button"><img src= "Photos\logo.png" width = "30px" height = "30px"><strong> Warren</strong> Fire Department</a><!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="http://warrenrifiredepartment.com" class="w3-bar-item w3-button">Home</a>
-      <a href="http://warrenrifiredepartment.com/aboutUs.html" class="w3-bar-item w3-button">About Us</a>
-      <a href="http://warrenrifiredepartment.com/gallery.html" class="w3-bar-item w3-button">Gallery</a>
-      <a href="http://warrenrifiredepartment.com/contact.html" class="w3-bar-item w3-button w3-margin-right">Contact</a>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
+        <a href="http://warrenrifiredepartment.com" class="w3-margin-left w3-bar-item w3-button">
+        <img src="Photos/Misc/Logo.PNG" width="30px" height="30px" /> 
+        <strong>Warren</strong> Fire Department</a>
+        <div class="w3-right w3-hide-small">
+        <a href="http://warrenrifiredepartment.com" class="w3-bar-item w3-button">Home</a> 
+        <a href="http://warrenrifiredepartment.com/aboutUs.html" class="w3-bar-item w3-button">About Us</a> 
+        <a href="http://warrenrifiredepartment.com/gallery.html" class="w3-bar-item w3-button">Gallery</a> 
+        <a href="http://warrenrifiredepartment.com/contact.html" class="w3-bar-item w3-button w3-margin-right">Contact</a></div>
+      </div>
     </div>
-  </div>
-</div>
-
-<!--End NavBar-->
-
-
-<!-- Header -->
-<header>
-<p>/n /n /n</p>
-<img src = "Photos\WarrenFireDepartmentBox.png" style="width:100%">
-</header>
-<!--End Header-->
+    <!--End NavBar-->
+	
+    <div id="wrapper">
+        <!-- Header -->
+<<<<<<< HEAD
+        <header id="header-test">
+          <br />
+          <img src="Photos/Misc/WarrenFireDepartmentBox.png" id="header-image" />
+=======
+        <header>
+          <br />
+          <img src="Photos/Misc/WarrenFireDepartmentBox.png" style=" width: 80%; display: block; margin: 0 auto; top: 0;left: 0;padding-top:30px;max-height:85%" />
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
+          <br />
+          <br />
+          <div id="background"></div>
+        </header>
+        <!--End Header-->
+<<<<<<< HEAD
 
 <!-- Page content -->
-<body>
+<div id="content">
+=======
 
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-003F.JPG">
-      <img src="./Photos/MVC-003F.JPG" alt="error" width="300" height="200">
-    </a>
-  </div>
-</div>
+<!-- Page content -->
+<div id="content">
 
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 
+<br/>
+<div class="responsive">
+	<div class="gallery" onclick=image.setImage("MVC003F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC003F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
+</div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-004F.JPG">
-    <img src="./Photos/MVC-004F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC004F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC004F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-005F.JPG">
-      <img src="./Photos/MVC-005F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC005F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC005F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-006F.JPG">
-      <img src="./Photos/MVC-006F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC006F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC006F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-007F.JPG">
-      <img src="./Photos/MVC-007F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC007F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC007F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-008F.JPG">
-    <img src="./Photos/MVC-008F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC008F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC008F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-009F.JPG">
-    <img src="./Photos/MVC-009F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC009F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC009F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-010F.JPG">
-    <img src="./Photos/MVC-010F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC010F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC010F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-011F.JPG">
-    <img src="./Photos/MVC-011F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC011F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC011F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-012F.JPG">
-    <img src="./Photos/MVC-012F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC012F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC012F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-013F.JPG">
-    <img src="./Photos/MVC-013F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC013F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC013F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-014F.JPG">
-    <img src="./Photos/MVC-014F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC014F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC014F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-015F.JPG">
-    <img src="./Photos/MVC-015F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC015F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC015F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-016F.JPG">
-    <img src="./Photos/MVC-016F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC016F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC016F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-017F.JPG">
-    <img src="./Photos/MVC-017F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC017F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC017F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-018F.JPG">
-    <img src="./Photos/MVC-018F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC018F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC018F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-019F.JPG">
-    <img src="./Photos/MVC-019F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC019F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC019F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-020F.JPG">
-    <img src="./Photos/MVC-020F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC020F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC020F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-021F.JPG">
-    <img src="./Photos/MVC-021F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC021F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC021F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-022F.JPG">
-    <img src="./Photos/MVC-022F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC022F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC022F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-023F.JPG">
-    <img src="./Photos/MVC-023F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC023F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC023F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-024F.JPG">
-    <img src="./Photos/MVC-024F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC024F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC024F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-025F.JPG">
-    <img src="./Photos/MVC-025F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC025F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC025F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-026F.JPG">
-    <img src="./Photos/MVC-026F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC026F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC026F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-027F.JPG">
-    <img src="./Photos/MVC-027F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC027F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC027F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-028F.JPG">
-    <img src="./Photos/MVC-028F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC028F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC028F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-029F.JPG">
-    <img src="./Photos/MVC-029F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC029F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC029F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-030F.JPG">
-    <img src="./Photos/MVC-030F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC030F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC030F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-031F.JPG">
-    <img src="./Photos/MVC-031F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC031F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC031F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-032F.JPG">
-    <img src="./Photos/MVC-032F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC032F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC032F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-033F.JPG">
-    <img src="./Photos/MVC-033F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC033F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC033F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-034F.JPG">
-    <img src="./Photos/MVC-034F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC034F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC034F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-035F.JPG">
-    <img src="./Photos/MVC-035F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC035F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC035F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-036F.JPG">
-    <img src="./Photos/MVC-035F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC036F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC036F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-037F.JPG">
-    <img src="./Photos/MVC-035F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC037F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC037F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-038F.JPG">
-    <img src="./Photos/MVC-035F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC038F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC038F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-039F.JPG">
-    <img src="./Photos/MVC-039F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC039F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC039F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-040F.JPG">
-    <img src="./Photos/MVC-040F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC040F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC040F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-041F.JPG">
-    <img src="./Photos/MVC-041F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC041F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC041F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-042F.JPG">
-    <img src="./Photos/MVC-042F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC042F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC042F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-043F.JPG">
-    <img src="./Photos/MVC-043F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC043F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC043F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-044F.JPG">
-    <img src="./Photos/MVC-044F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC044F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC044F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-045F.JPG">
-    <img src="./Photos/MVC-045F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC045F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC045F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-046F.JPG">
-    <img src="./Photos/MVC-046F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC046F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC046F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-047F.JPG">
-    <img src="./Photos/MVC-047F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC047F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC047F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-048F.JPG">
-    <img src="./Photos/MVC-048F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC048F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC048F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-049F.JPG">
-    <img src="./Photos/MVC-049F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC049F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC049F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-050F.JPG">
-    <img src="./Photos/MVC-050F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC050F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC050F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-051F.JPG">
-    <img src="./Photos/MVC-051F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC051F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC051F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-052F.JPG">
-    <img src="./Photos/MVC-052F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC052F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC052F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-053F.JPG">
-    <img src="./Photos/MVC-053F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC053F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC053F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-054F.JPG">
-    <img src="./Photos/MVC-054F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC054F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC054F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-055F.JPG">
-    <img src="./Photos/MVC-055F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC055F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC055F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-056F.JPG">
-    <img src="./Photos/MVC-056F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC056F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC056F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-841F.JPG">
-    <img src="./Photos/MVC-841F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC841F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC841F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-842F.JPG">
-    <img src="./Photos/MVC-842F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC842F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC842F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-843F.JPG">
-    <img src="./Photos/MVC-843F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC843F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC843F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-844F.JPG">
-    <img src="./Photos/MVC-844F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC844F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC844F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-845F.JPG">
-    <img src="./Photos/MVC-845F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC845F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC845F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-846F.JPG">
-    <img src="./Photos/MVC-846F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC846F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC846F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-847F.JPG">
-    <img src="./Photos/MVC-847F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC847F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC847F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-848F.JPG">
-    <img src="./Photos/MVC-848F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC848F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC848F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-849F.JPG">
-    <img src="./Photos/MVC-849F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC849F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC849F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-850F.JPG">
-    <img src="./Photos/MVC-850F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC850F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC850F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-851F.JPG">
-    <img src="./Photos/MVC-851F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC851F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC851F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-852F.JPG">
-    <img src="./Photos/MVC-852F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC852F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC852F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-853F.JPG">
-    <img src="./Photos/MVC-853F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC853F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC853F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-854F.JPG">
-    <img src="./Photos/MVC-854F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC854F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC854F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-855F.JPG">
-    <img src="./Photos/MVC-855F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC855F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC855F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-856F.JPG">
-    <img src="./Photos/MVC-856F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC856F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC856F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-857F.JPG">
-    <img src="./Photos/MVC-857F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC857F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC857F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-858F.JPG">
-    <img src="./Photos/MVC-858F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC858F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC858F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-859F.JPG">
-    <img src="./Photos/MVC-859F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC859F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC859F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-860F.JPG">
-    <img src="./Photos/MVC-860F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC860F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC860F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-861F.JPG">
-    <img src="./Photos/MVC-861F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC861F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC861F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-862F.JPG">
-    <img src="./Photos/MVC-862F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC862F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC862F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-863F.JPG">
-    <img src="./Photos/MVC-863F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC863F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC863F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-864F.JPG">
-    <img src="./Photos/MVC-864F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC864F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC864F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-865F.JPG">
-    <img src="./Photos/MVC-865F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC865F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC865F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-866F.JPG">
-    <img src="./Photos/MVC-866F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC866F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC866F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-867F.JPG">
-    <img src="./Photos/MVC-867F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC867F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC867F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-868F.JPG">
-    <img src="./Photos/MVC-868F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC868F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC868F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-0869F.JPG">
-    <img src="./Photos/MVC-869F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC869F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC869F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-870F.JPG">
-    <img src="./Photos/MVC-870F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC870F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC870F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-871F.JPG">
-    <img src="./Photos/MVC-871F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC871F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC871F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-872F.JPG">
-    <img src="./Photos/MVC-872F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC872F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC872F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-873F.JPG">
-    <img src="./Photos/MVC-873F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC873F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC873F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-874F.JPG">
-    <img src="./Photos/MVC-874F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC874F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC874F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-875F.JPG">
-    <img src="./Photos/MVC-875F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC875F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC875F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-876F.JPG">
-    <img src="./Photos/MVC-876F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC876F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC876F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-877F.JPG">
-    <img src="./Photos/MVC-877F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC877F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC877F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-878F.JPG">
-    <img src="./Photos/MVC-878F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC878F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC878F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-879F.JPG">
-    <img src="./Photos/MVC-879F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC879F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC879F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-880F.JPG">
-    <img src="./Photos/MVC-880F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC880F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC880F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-881F.JPG">
-    <img src="./Photos/MVC-881F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC881F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC881F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-882F.JPG">
-    <img src="./Photos/MVC-882F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC882F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC882F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-883F.JPG">
-    <img src="./Photos/MVC-883F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC883F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC883F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-884F.JPG">
-    <img src="./Photos/MVC-884F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC884F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC884F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-885F.JPG">
-    <img src="./Photos/MVC-885F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC885F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC885F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-886F.JPG">
-    <img src="./Photos/MVC-886F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC886F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC886F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-887F.JPG">
-    <img src="./Photos/MVC-887F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC887F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC887F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-888F.JPG">
-    <img src="./Photos/MVC-888F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC888F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC888F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-889F.JPG">
-    <img src="./Photos/MVC-889F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC889F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC889F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-890F.JPG">
-    <img src="./Photos/MVC-890F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC890F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC890F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-891F.JPG">
-    <img src="./Photos/MVC-891F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC891F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC891F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-892F.JPG">
-    <img src="./Photos/MVC-892F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC892F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC892F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-893F.JPG">
-    <img src="./Photos/MVC-893F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC893F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC893F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-894F.JPG">
-    <img src="./Photos/MVC-894F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC894F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC894F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-895F.JPG">
-    <img src="./Photos/MVC-895F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC895F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC895F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-896F.JPG">
-    <img src="./Photos/MVC-896F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC896F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC896F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-897F.JPG">
-    <img src="./Photos/MVC-897F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC897F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC897F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-898F.JPG">
-    <img src="./Photos/MVC-898F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC898F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC898F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-899F.JPG">
-    <img src="./Photos/MVC-899F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC899F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC899F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-900F.JPG">
-    <img src="./Photos/MVC-900F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC900F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC900F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-901F.JPG">
-    <img src="./Photos/MVC-901F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC901F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC901F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
 </div>
 
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./Photos/MVC-902F.JPG">
-    <img src="./Photos/MVC-902F.JPG" alt="Error" width="600" height="400">
-    </a>
-    
-  </div>
+	<div class="gallery" onclick=image.setImage("MVC902F");>
+		<a target="_blank">
+			<img src="./Photos/NoDash/MVC902F.JPG" alt="error" width="300" height="200">
+		</a>
+	</div>
+<<<<<<< HEAD
+</div>
+
+<!-- Popup Window -->
+
+<div id="openPopup" class="popupbox">
+	<div>
+		<a id="openButton" href="#openPopup" style="visibility:hidden"></a>
+		<a id="closeButton" href="#close" title="Close" class="close">x</a>
+		<img id="popupBoxId" src="" alt="error">
+	</div>
+</div>
+
+=======
+</div>
+
+<!-- Popup Window -->
+
+<div id="openPopup" class="popupbox">
+	<div>
+		<a id="openButton" href="#openPopup" style="visibility:hidden"></a>
+		<a id="closeButton" href="#close" title="Close" class="close">x</a>
+		<img id="popupBoxId" src="" alt="error" width="800" height="533">
+	</div>
 </div>
+
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+var partOne = function(val){
+	d = $.Deferred();
+	document.getElementById('popupBoxId').src = "./Photos/NoDash/" + val + ".JPG";
+	console.log("this is first");
+	setTimeout(function() {
+		d.resolve();
+	}, 200);
+	return d;
+};
+var partTwo = function(){
+	d = $.Deferred();
+	document.getElementById('openButton').click();
+	console.log("this is second");
+	setTimeout(function() {
+		d.resolve();
+	}, 200);
+	return d;
+};
+
+var image = {
+	setImage: function(val){
+		partOne(val).then(partTwo);
+	}
+};
+</script>
+
+<!-- End Popup Window -->
+
 <p>&nbsp;</p>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 <!--Insert Page Content Here -->
 
 <!-- End page content -->
 
 
 <!-- Footer -->
-<footer class="footer-distributed">
-
+<<<<<<< HEAD
+		<footer class="footer-distributed" style="margin-top: 0px;height:360px">
+=======
+		<footer class="footer-distributed">
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 			<div class="footer-left">
-				<p class="footer-links">
-				<br> </br>
-					<a href="http://warrenrifiredepartment.com">Home</a>
-					·
-					<a href="http://warrenrifiredepartment.com/aboutUs.html">About Us</a>
-					·
-					<a href="http://warrenrifiredepartment.com/gallery.html">Gallery</a>
-					·
+				<p class="footer-links"><br></br>
+					<a href="http://warrenrifiredepartment.com">Home</a> ·
+					<a href="http://warrenrifiredepartment.com/aboutUs.html">About Us</a> ·
+					<a href="http://warrenrifiredepartment.com/gallery.html">Gallery</a> ·
 					<a href="http://warrenrifiredepartment.com/contact.html">Contact</a>
-					·
 				</p>
-
-				<p>Warren Fire Department</p>
-<br /><p>Alexander R. Galinelli, Fire Chief: 401-245-7600 • 401-247-7735 (fax)</p>
-<br /><a style="color:red" href="http://fg.k12.ri.us/">Created By Ponnaganset High School Students</a>
+				<p>Warren Fire Department</p><br /><p>Alexander R. Galinelli, Fire Chief: 401-245-7600 • 401-247-7735 (fax)</p>
+				<br/>
+<<<<<<< HEAD
+				<a style="color:#25604a;font-weight:bold" href="http://fg.k12.ri.us/">Created By Ponaganset High School Students</a>
+=======
+				<a style="color:#da0a0a" href="http://fg.k12.ri.us/">Created By Ponnaganset High School Students</a>
+>>>>>>> 0976ed467dbdb59517effe0dfe2d00ce75670923
 			</div>
-
 		</footer>
+<!-- End Footer -->
+
+	      </div>
+    </div>
 </body>
 </html>
